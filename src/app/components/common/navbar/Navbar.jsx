@@ -27,7 +27,7 @@ const Navbar = () => {
             <ul className="flex items-center justify-center flex-row gap-x-4">
               {navLinks.map((link, id) => (
                 <li key={id}>
-                  <Link className="hover:text-primary-purple relative hover:before:content hover:before:absolute hover:before:w-full hover:before:h-[2px] hover:before:bg-primary-purple hover:before:-bottom-1 transition-all ease-linear duration-75 before:transition-all before:ease-linear before:duration-75" href={link.href}>{link.name}</Link>
+                  <Link className="hover:text-primary-purple relative hover:before:content hover:before:absolute hover:before:w-full hover:before:h-[2px] hover:before:bg-primary-purple hover:before:-bottom-1 hover:before:animate-underline transition-all ease-linear duration-75 before:transition-all before:ease-linear before:duration-75" href={link.href}>{link.name}</Link>
                 </li>
               ))}
             </ul>

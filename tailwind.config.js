@@ -27,7 +27,7 @@ module.exports = {
       },
       animation: {
         waves: 'waves 2s infinite',
-        underline
+        underline: 'underline 0.3s linear',
       },
     },
   },
