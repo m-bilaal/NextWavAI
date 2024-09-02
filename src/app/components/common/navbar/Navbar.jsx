@@ -27,7 +27,7 @@ const Navbar = () => {
             <ul className="flex items-center justify-center flex-row gap-x-4">
               {navLinks.map((link, id) => (
                 <li key={id}>
-                  <Link href={link.href}>{link.name}</Link>
+                  <Link className="hover:text-primary-purple relative hover:before:content hover:before:absolute hover:before:w-full hover:before:h-[2px] hover:before:bg-primary-purple hover:before:-bottom-1 transition-all ease-linear duration-75 before:transition-all before:ease-linear before:duration-75" href={link.href}>{link.name}</Link>
                 </li>
               ))}
             </ul>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <ul className="flex items-center justify-center gap-x-4">
             <li>
               <Link
-                className="bg-primary-purple px-5 py-2 rounded-3xl text-white border border-transparent animate-waves inline-block hover:bg-white hover:text-primary-purple hover:border-primary-purple"
+                className="bg-primary-purple px-5 py-2 rounded-3xl text-white border border-transparent animate-waves inline-block transition-all ease-linear duration-100 hover:bg-white hover:text-primary-purple hover:border-primary-purple"
                 href="javascript:;"
               >
                 Sign Up
@@ -43,7 +43,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                className="border bg-white border-primary-purple text-primary-purple px-5 py-2 rounded-3xl inline-block hover:text-white hover:border-transparent hover:bg-primary-purple"
+                className="border bg-white border-primary-purple text-primary-purple px-5 py-2 rounded-3xl inline-block transition-all ease-linear duration-100 hover:text-white hover:border-transparent hover:bg-primary-purple"
                 href="javascript:;"
               >
                 Login

@@ -20,9 +20,14 @@ module.exports = {
           '0%': { boxShadow: '0 0 0 0px rgb(136 80 255)' },
           '100%': { boxShadow: '0 0 0 15px transparent' },
         },
+        underline: {
+          '0%': { width: '0' },
+          '100%': { width: '100%' },
+        }
       },
       animation: {
         waves: 'waves 2s infinite',
+        underline
       },
     },
   },
