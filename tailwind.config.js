@@ -12,6 +12,18 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "primary-purple": "rgb(136 80 255)",
+      },
+      keyframes: {
+        waves: {
+          '0%': { boxShadow: '0 0 0 0px rgb(136 80 255)' },
+          '100%': { boxShadow: '0 0 0 15px transparent' },
+        },
+      },
+      animation: {
+        waves: 'waves 2s infinite',
+      },
     },
   },
   plugins: [],
