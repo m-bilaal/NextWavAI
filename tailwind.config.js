@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         "primary-purple": "rgb(136 80 255)",
+        "light-purple": "rgb(235 225 255)",
       },
       keyframes: {
         waves: {
